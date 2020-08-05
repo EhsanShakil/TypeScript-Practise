@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "typescript": "^4.0.0-beta"
+  },
+  "name": "typescript-practise",
+  "version": "1.0.0",
+  "description": "practising typescript",
+  "main": "TypeScript.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
