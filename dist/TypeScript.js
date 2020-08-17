@@ -18,3 +18,10 @@ var obj = {
     name: "John",
     age: 15,
 };
+var age = 26;
+console.log(age);
+var person = {
+    firstName: "John",
+    age: 30,
+};
+console.log(person);
