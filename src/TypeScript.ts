@@ -30,6 +30,7 @@ console.log(age);
 type Person = {
   firstName: string;
   age: number;
+  email?: string; //optional property
 };
 
 const person: Person = {
@@ -37,3 +38,6 @@ const person: Person = {
   age: 30,
 };
 console.log(person);
+
+const array: [number, string] = [30, "person"];
+console.log(array);

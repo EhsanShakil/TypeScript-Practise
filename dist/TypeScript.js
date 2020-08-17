@@ -25,3 +25,5 @@ var person = {
     age: 30,
 };
 console.log(person);
+var array = [30, "person"];
+console.log(array);
