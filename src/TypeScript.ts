@@ -22,3 +22,18 @@ let obj: { name: string; age: number } = {
   name: "John",
   age: 15,
 };
+
+type Age = number;
+const age: Age = 26;
+console.log(age);
+
+type Person = {
+  firstName: string;
+  age: number;
+};
+
+const person: Person = {
+  firstName: "John",
+  age: 30,
+};
+console.log(person);
