@@ -59,3 +59,12 @@ const add: Add = (num1: number, num2: number): number => {
 };
 
 console.log(add(5, 5));
+
+type Name<T> = {
+  (name: T): T;
+};
+
+const nameFunc: Name<string> = (name: string): string => {
+  return name;
+};
+console.log(nameFunc("Ahsan"));

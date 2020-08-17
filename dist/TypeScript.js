@@ -41,3 +41,7 @@ var add = function (num1, num2) {
     return num1 + num2;
 };
 console.log(add(5, 5));
+var nameFunc = function (name) {
+    return name;
+};
+console.log(nameFunc("Ahsan"));
