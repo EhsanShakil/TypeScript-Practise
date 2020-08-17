@@ -64,7 +64,18 @@ type Name<T> = {
   (name: T): T;
 };
 
-const nameFunc: Name<string> = (name: string): string => {
+const nameFunc1: Name<string> = (name: string): string => {
   return name;
 };
-console.log(nameFunc("Ahsan"));
+console.log(nameFunc1("Ahsan"));
+
+const nameFunc2: Name<number> = (name: number): number => {
+  return name;
+};
+console.log(nameFunc2(1212));
+
+let ageFunc = <T>(num: T): T => {
+  return num;
+};
+console.log(ageFunc<number>(2));
+console.log(ageFunc<string>("Hello"));

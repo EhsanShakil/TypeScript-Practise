@@ -41,7 +41,16 @@ var add = function (num1, num2) {
     return num1 + num2;
 };
 console.log(add(5, 5));
-var nameFunc = function (name) {
+var nameFunc1 = function (name) {
     return name;
 };
-console.log(nameFunc("Ahsan"));
+console.log(nameFunc1("Ahsan"));
+var nameFunc2 = function (name) {
+    return name;
+};
+console.log(nameFunc2(1212));
+var ageFunc = function (num) {
+    return num;
+};
+console.log(ageFunc(2));
+console.log(ageFunc("Hello"));
