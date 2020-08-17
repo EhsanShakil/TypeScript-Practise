@@ -37,3 +37,7 @@ console.log(Courses);
 console.log(Courses.Urdu);
 console.log(Courses.English);
 console.log(Courses.Math);
+var add = function (num1, num2) {
+    return num1 + num2;
+};
+console.log(add(5, 5));
