@@ -41,3 +41,13 @@ console.log(person);
 
 const array: [number, string] = [30, "person"];
 console.log(array);
+
+enum Courses {
+  Urdu,
+  English,
+  Math,
+}
+console.log(Courses);
+console.log(Courses.Urdu);
+console.log(Courses.English);
+console.log(Courses.Math);

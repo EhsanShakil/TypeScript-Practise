@@ -27,3 +27,13 @@ var person = {
 console.log(person);
 var array = [30, "person"];
 console.log(array);
+var Courses;
+(function (Courses) {
+    Courses[Courses["Urdu"] = 0] = "Urdu";
+    Courses[Courses["English"] = 1] = "English";
+    Courses[Courses["Math"] = 2] = "Math";
+})(Courses || (Courses = {}));
+console.log(Courses);
+console.log(Courses.Urdu);
+console.log(Courses.English);
+console.log(Courses.Math);
